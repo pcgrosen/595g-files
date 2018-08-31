@@ -15,8 +15,10 @@ However, **in your final solution scripts, you will need to modify your scripts
 to attack the vuln server.** The vuln server is located at `10.0.10.10`.
 
 You will also submit your solutions via your server. To submit a solution, place
-your solution script in `/opt/solutions/<challenge name>` where the name is the
-same as in the challenges directory.
+your solution script in the directory at`/opt/solutions/<challenge name>/` where
+the name is the same as in the challenges directory. Don't worry your solution
+being in any particular format -- I will read your code and figure it out
+myself. (Obviously, follow good programming practices and make it readable ...)
 
 In order to provide the most real-world environment possible, you have root
 access on your server. You can run commands as root using `sudo`. No password is
@@ -55,5 +57,8 @@ from your server).
 
 7. Do not perform non-class related activites on these servers.
 
+If you accidentally violate one of these rules, please let me know as soon as
+possible, and I'll work with you to fix it.
+
 **If I find you in intentional or severe violation of these rules, I reserve the
-right to shut down or disconnect your server.**
+right to terminate or disconnect your server.**

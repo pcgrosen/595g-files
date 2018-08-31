@@ -1,0 +1,13 @@
+################################################################################
+
+Welcome to 595g-testing!
+
+To get started, please read ~/595g-files/README.md
+
+Next, solve the challenge in /opt/challenges/intro/
+
+When complete, add a script that solves it to /opt/solutions/intro/
+
+REMEMBER, make sure your script attacks the vuln server!
+
+################################################################################
