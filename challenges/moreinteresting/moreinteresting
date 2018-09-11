@@ -1,0 +1,11 @@
+service moreinteresting
+{
+    socket_type = stream
+    protocol    = tcp
+    wait        = no
+    user        = moreinteresting
+    bind        = 0.0.0.0
+    server      = /opt/challenges/moreinteresting/run.sh
+    port        = 5002
+    type        = UNLISTED
+}
