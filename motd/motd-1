@@ -4,9 +4,9 @@ Welcome to 595g-testing!
 
 To get started, please read ~/595g-files/README.md
 
-Next, solve the challenge in /opt/challenges/intro/
+Next, look at both attendance and simple_xor.
 
-When complete, add a script that solves it to /opt/solutions/intro/
+When complete, add solving scripts to /opt/solutions.
 
 REMEMBER, make sure your script attacks the vuln server!
 

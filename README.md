@@ -25,6 +25,15 @@ access on your server. You can run commands as root using `sudo`. No password is
 required when doing this as the `ubuntu` user. Be careful. Consider what you are
 doing before executing commands as root.
 
+## Tips
+
+* There is a python virtual environment set up for you with some basic tools.
+You can access it with `workon ctf`.
+
+* The challenges (and this README) are publicly available: github.com/pcgrosen
+
+* You can use `scp` to easily transfer files between your computer and server.
+
 ## Restrictions
 
 There are several restrictions in place on your servers to protect their
@@ -56,6 +65,8 @@ from your server).
 6. These servers are not for private use. Do not store sensitive data on them.
 
 7. Do not perform non-class related activites on these servers.
+
+8. Do not write to `/opt/595g-files` or `~/595g-files`. (I will overwrite it.)
 
 If you accidentally violate one of these rules, please let me know as soon as
 possible, and I'll work with you to fix it.

@@ -1,4 +1,6 @@
-# More Interesting
+# Simple Xor
+
+`simple_xor` is an introductory challenge regarding xor encoding.
 
 This challenge spawns a simple service on port 5002.
 

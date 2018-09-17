@@ -9,5 +9,5 @@ while [ -h "$SOURCE" ]; do # resolve $SOURCE until the file is no longer a symli
 done
 DIR="$( cd -P "$( dirname "$SOURCE" )" >/dev/null && pwd )"
 
-cp "$DIR/moreinteresting" /etc/xinetd.d/
+cp "$DIR/simple_xor" /etc/xinetd.d/
 kill -USR2 $(pgrep xinetd)
