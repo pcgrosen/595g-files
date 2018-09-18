@@ -8,6 +8,7 @@ Next, look at both attendance and simple_xor.
 
 When complete, add solving scripts to /opt/solutions.
 
-REMEMBER, make sure your script attacks the vuln server!
+REMEMBER, make sure your script attacks the vuln server, and put the vuln flag
+a flag file in the solutions directory!
 
 ################################################################################
