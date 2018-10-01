@@ -1,0 +1,11 @@
+service cookiemonster
+{
+    socket_type = stream
+    protocol    = tcp
+    wait        = no
+    user        = cookiemonster
+    bind        = 0.0.0.0
+    server      = /opt/challenges/cookiemonster/run.sh
+    port        = 5004
+    type        = UNLISTED
+}

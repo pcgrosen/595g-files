@@ -1,0 +1,11 @@
+service shortname
+{
+    socket_type = stream
+    protocol    = tcp
+    wait        = no
+    user        = shortname
+    bind        = 0.0.0.0
+    server      = /opt/challenges/shortname/run.sh
+    port        = 5003
+    type        = UNLISTED
+}

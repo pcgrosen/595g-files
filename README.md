@@ -19,7 +19,8 @@ your solution script in the directory at`/opt/solutions/<challenge name>/` where
 the name is the same as in the challenges directory. Don't worry your solution
 being in any particular format -- I will read your code and figure it out
 myself. (Obviously, follow good programming practices and make it readable ...)
-In addition, **place the vuln server's flag in a file called** `flag`.
+
+Read SUBMITTING.md for more information on submitting solutions.
 
 In order to provide the most real-world environment possible, you have root
 access on your server. You can run commands as root using `sudo`. No password is

@@ -1,14 +1,19 @@
 ################################################################################
 
-Welcome to 595g-testing!
+Welcome to 595g!
 
 To get started, please read ~/595g-files/README.md
 
-Next, look at both attendance and simple_xor.
+This week, you should solve three challenges:
+    1. attendance
+    2. shortname
+    3. cookiemonster
 
 When complete, add solving scripts to /opt/solutions.
 
-REMEMBER, make sure your script attacks the vuln server, and put the vuln flag
-a flag file in the solutions directory!
+There are already some basic tools installed on your box. For example, you can
+access pwntools and ipython by typing "workon ctf".
+
+If you have any questions, please contact me on slack or via email.
 
 ################################################################################
