@@ -51,6 +51,30 @@ r.sendline(data)
 r.interactive()
 ```
 
+# Packing and unpacking integers
+
+If a program reads in a string but you need to send a numerical value, you can use pwntools's packing functions:
+
+``` python
+# create an 8-byte string
+b = p64(0x1234)
+# b = "\x34\x12\x00\x00\x00\x00\x00\x00"
+
+# create a 4-byte string
+b = p32(0x1234)
+# b = "\x34\x12\x00\x00"
+```
+
+pwntools also provides helpers for converting byte strings to numbers:
+
+``` python
+n = u64("\x34\x12\x00\x00\x00\x00\x00\x00")
+# n = 0x1234
+
+n = u32("\x34\x12\x00\x00")
+# n = 0x1234
+```
+
 ### Debugging a connection
 
 pwntools will log all transmitted/received data on a connection if you increase its verbosity. To do so, use:
