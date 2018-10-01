@@ -27,6 +27,9 @@ r = remote("10.0.10.10", 5003)
 pwntools has several helper funtions for talking to processes and remotes.
 
 ``` python
+# Receive up to and including a particular string (probably the most useful receive!)
+content = r.recvuntil("prompt> ")
+
 # Receive up to 5 bytes
 content = r.recv(5)
 
