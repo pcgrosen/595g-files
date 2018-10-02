@@ -1,7 +1,6 @@
-# Shortname
+# Cookiemonster
 
-Johnny the Programmer says:
-    "Welcome to my first C program! I can assume your name is short, right?"
+"I hope you like cookies . . . You'll need one for this challenge."
 
 This challenge spawns a simple service on port 5004.
 
