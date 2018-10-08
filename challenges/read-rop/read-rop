@@ -1,0 +1,11 @@
+service read-rop
+{
+    socket_type = stream
+    protocol    = tcp
+    wait        = no
+    user        = read-rop
+    bind        = 0.0.0.0
+    server      = /opt/challenges/read-rop/run.sh
+    port        = 5006
+    type        = UNLISTED
+}
