@@ -27,6 +27,8 @@ access on your server. You can run commands as root using `sudo`. No password is
 required when doing this as the `ubuntu` user. Be careful. Consider what you are
 doing before executing commands as root.
 
+The slides for the class are available on [int80.net](https://int80.net/cs595g/)
+
 ## Tips
 
 * There is a python virtual environment set up for you with some basic tools.
