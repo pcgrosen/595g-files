@@ -1,0 +1,11 @@
+service string-rop
+{
+    socket_type = stream
+    protocol    = tcp
+    wait        = no
+    user        = string-rop
+    bind        = 0.0.0.0
+    server      = /opt/challenges/string-rop/run.sh
+    port        = 5005
+    type        = UNLISTED
+}
