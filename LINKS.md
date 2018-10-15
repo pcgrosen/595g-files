@@ -11,3 +11,5 @@
 [IDA download](https://www.hex-rays.com/products/ida/support/download_freeware.shtml): Official Hex-Rays free version of IDA 7.0
 
 [angrop](https://github.com/salls/angrop): angrop repo with helpful README
+
+[libc database](https://libc.blukat.me): libc lookup based on addresses and symbols
