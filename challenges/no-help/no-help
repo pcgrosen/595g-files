@@ -1,0 +1,11 @@
+service no-help
+{
+    socket_type = stream
+    protocol    = tcp
+    wait        = no
+    user        = no-help
+    bind        = 0.0.0.0
+    server      = /opt/challenges/no-help/run.sh
+    port        = 5007
+    type        = UNLISTED
+}
