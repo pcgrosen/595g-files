@@ -1,0 +1,11 @@
+service doubly-inexpensive
+{
+    socket_type = stream
+    protocol    = tcp
+    wait        = no
+    user        = doubly-inexpensive
+    bind        = 0.0.0.0
+    server      = /opt/challenges/doubly-inexpensive/run.sh
+    port        = 5008
+    type        = UNLISTED
+}
