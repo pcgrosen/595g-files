@@ -13,3 +13,5 @@
 [angrop](https://github.com/salls/angrop): angrop repo with helpful README
 
 [libc database](https://libc.blukat.me): libc lookup based on addresses and symbols
+
+[malloc internals](https://sourceware.org/glibc/wiki/MallocInternals): Reference for malloc structs, allocation/free process, etc.
