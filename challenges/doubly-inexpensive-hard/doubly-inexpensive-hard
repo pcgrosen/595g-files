@@ -1,0 +1,11 @@
+service doubly-inexpensive-hard
+{
+    socket_type = stream
+    protocol    = tcp
+    wait        = no
+    user        = doubly-inexpensive-hard
+    bind        = 0.0.0.0
+    server      = /opt/challenges/doubly-inexpensive-hard/run.sh
+    port        = 5009
+    type        = UNLISTED
+}
