@@ -6,6 +6,6 @@ service calculator-for-sale
     user        = calculator-for-sale
     bind        = 0.0.0.0
     server      = /opt/challenges/calculator-for-sale/run.sh
-    port        = 5008
+    port        = 5010
     type        = UNLISTED
 }
