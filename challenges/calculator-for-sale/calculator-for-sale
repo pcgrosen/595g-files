@@ -1,0 +1,11 @@
+service calculator-for-sale
+{
+    socket_type = stream
+    protocol    = tcp
+    wait        = no
+    user        = calculator-for-sale
+    bind        = 0.0.0.0
+    server      = /opt/challenges/calculator-for-sale/run.sh
+    port        = 5008
+    type        = UNLISTED
+}
