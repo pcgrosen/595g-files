@@ -1,0 +1,11 @@
+service formats-little-attack
+{
+    socket_type = stream
+    protocol    = tcp
+    wait        = no
+    user        = formats-little-attack
+    bind        = 0.0.0.0
+    server      = /opt/challenges/formats-little-attack/run.sh
+    port        = 5011
+    type        = UNLISTED
+}
