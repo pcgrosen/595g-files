@@ -62,7 +62,7 @@ from your server).
 
 3. Follow all UCSB computer use policy.
 
-4. Do not remove my key (labeled `manager`) from your authorized keys.
+4. Do not remove my key (labeled `manager`/`595g-*`) from your authorized keys.
 
 5. Do not shut down your server (restarting is fine).
 
