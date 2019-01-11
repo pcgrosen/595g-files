@@ -1,0 +1,25 @@
+################################################################################
+
+ __          __       _      __
+ \ \        / /      | |    /_ |
+  \ \  /\  / /__  ___| | __  | |
+   \ \/  \/ / _ \/ _ \ |/ /  | |
+    \  /\  /  __/  __/   <   | |
+     \/  \/ \___|\___|_|\_\  |_|
+
+
+Welcome to 595g!
+
+To get started, please read ~/595g-files/README.md
+
+This week, you should solve admin-login
+
+When complete, add a solving script to /opt/solutions.
+
+There are already some basic tools installed on your box. For example, you can
+access pwntools and ipython by typing "workon ctf". You will probably want to
+start by installing requests by typing "pip install requests".
+
+If you have any questions, please contact me on slack or via email.
+
+################################################################################
