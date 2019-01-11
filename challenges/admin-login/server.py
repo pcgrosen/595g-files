@@ -10,19 +10,18 @@ admin = "admin"
 here = os.path.dirname(os.path.abspath(__file__))
 flag_path = os.path.join(here, "flag")
 db_path = os.path.join(here, "users.db")
-db = sqlite3.connect(db_path)
 
-c = db.cursor()
-c.execute("CREATE TABLE IF NOT EXISTS users (username TEXT PRIMARY KEY, password TEXT)")
-db.commit()
-
-c.execute("SELECT * FROM users WHERE username=?", (admin,))
-if not c.fetchone():
-    password = "".join(random.choice(string.ascii_letters) for _ in xrange(64))
-    c.execute("INSERT INTO users VALUES (?, ?)", (admin, password))
+def fix_database(db):
+    c = db.cursor()
+    c.execute("CREATE TABLE IF NOT EXISTS users (username TEXT PRIMARY KEY, password TEXT)")
     db.commit()
-c.close()
-db.close()
+
+    c.execute("SELECT * FROM users WHERE username=?", (admin,))
+    if not c.fetchone():
+        password = "".join(random.choice(string.ascii_letters) for _ in xrange(64))
+        c.execute("INSERT INTO users VALUES (?, ?)", (admin, password))
+        db.commit()
+    c.close()
 
 def get_flag():
     with open(flag_path, "rb") as f:
@@ -33,7 +32,9 @@ def login_page():
     if request.method == "GET":
         return render_template("login.html")
     else:
-        cursor = sqlite3.connect(db_path).cursor()
+        db = sqlite3.connect(db_path)
+        fix_database(db)
+        cursor = db.cursor()
         cursor.execute("SELECT * FROM users WHERE username='%s' AND password='%s'" %
                        (request.form["username"], request.form["password"]))
         if cursor.fetchone():
