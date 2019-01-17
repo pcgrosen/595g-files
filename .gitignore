@@ -5,4 +5,8 @@
 *.til
 *.idb
 *.i64
+
 core
+
+*.db
+flag
