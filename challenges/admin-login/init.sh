@@ -14,7 +14,7 @@ DIR="$( cd -P "$( dirname "$SOURCE" )" >/dev/null && pwd )"
 cd "$DIR"
 CHALLENGE=$(basename "$DIR")
 
-apt install virtualenv
+apt install -y virtualenv 2> /dev/null
 
 virtualenv "${CHALLENGE}-env"
 source "${CHALLENGE}-env/bin/activate"
