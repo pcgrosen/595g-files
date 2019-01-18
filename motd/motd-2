@@ -1,0 +1,20 @@
+################################################################################
+
+ _    _           _      _____
+| |  | |         | |    / __  \
+| |  | | ___  ___| | __ `' / /'
+| |/\| |/ _ \/ _ \ |/ /   / /
+\  /\  /  __/  __/   <  ./ /___
+ \/  \/ \___|\___|_|\_\ \_____/
+
+
+This week, we discussed Blind SQL Injection.
+You can find the slides on https://int80.net/cs595g/
+
+This week, you should solve non-visible.
+
+When complete, add a solving script to /opt/solutions.
+
+If you have any questions, please contact me on slack or via email.
+
+################################################################################
