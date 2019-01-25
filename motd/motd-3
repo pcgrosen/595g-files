@@ -1,0 +1,30 @@
+################################################################################
+
+ __      __               __     ________
+/  \    /  \ ____   ____ |  | __ \_____  \
+\   \/\/   // __ \_/ __ \|  |/ /   _(__  <
+ \        /\  ___/\  ___/|    <   /       \
+  \__/\  /  \___  >\___  >__|_ \ /______  /
+       \/       \/     \/     \/        \/
+
+
+This week, we discussed schema leaks in SQL injections.
+You can find the slides on https://int80.net/cs595g/
+
+
+This week, you should solve scheme-whata.
+
+This challenge is private, meaning that you don't have the source; instead, it
+is only hosted on the vuln server on port 5003.
+
+Recall that you don't need to programatically parse the leaked data. (See the
+last slide for more information.)
+
+(Hint: The query into which you will inject is the same as last week's.)
+
+
+When complete, add a solving script to /opt/solutions.
+
+If you have any questions, please contact me on slack or via email.
+
+################################################################################
