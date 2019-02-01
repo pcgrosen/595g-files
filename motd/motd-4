@@ -1,0 +1,22 @@
+################################################################################
+
+  (`\ .-') /`   ('-.     ('-.  .-. .-')
+   `.( OO ),' _(  OO)  _(  OO) \  ( OO )
+,--./  .--.  (,------.(,------.,--. ,--.           .---.
+|      |  |   |  .---' |  .---'|  .'   /          / .  |
+|  |   |  |,  |  |     |  |    |      /,         / /|  |
+|  |.'.|  |_)(|  '--. (|  '--. |     ' _)       / / |  |_
+|         |   |  .--'  |  .--' |  .   \        /  '-'    |
+|   ,'.   |   |  `---. |  `---.|  |\   \       `----|  |-'
+'--'   '--'   `------' `------'`--' '--'            `--'
+
+This week, we discussed AES in ECB mode.
+You can find the slides on https://int80.net/cs595g/
+
+This week, you should solve electronic-code-crack.
+
+When complete, add a solving script to /opt/solutions.
+
+If you have any questions, please contact me on slack or via email.
+
+################################################################################
