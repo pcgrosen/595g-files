@@ -1,0 +1,24 @@
+################################################################################
+
+          _______  _______  _          _______ 
+|\     /|(  ____ \(  ____ \| \    /\  (  ____ \
+| )   ( || (    \/| (    \/|  \  / /  | (    \/
+| | _ | || (__    | (__    |  (_/ /   | (____  
+| |( )| ||  __)   |  __)   |   _ (    (_____ \ 
+| || || || (      | (      |  ( \ \         ) )
+| () () || (____/\| (____/\|  /  \ \  /\____) )
+(_______)(_______/(_______/|_/    \/  \______/ 
+                                               
+
+This week, we discussed AES in CTR mode.
+You can find the slides on https://int80.net/cs595g/
+
+This week, you should solve ctr-intelligence.
+There are at least three ways to solve this challenge. Please implement the two
+that are discussed in the slides, and find the third if you have time.
+
+When complete, add a solving script to /opt/solutions.
+
+If you have any questions, please contact me on slack or via email.
+
+################################################################################
