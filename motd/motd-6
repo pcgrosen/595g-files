@@ -1,0 +1,18 @@
+################################################################################
+
+ _  _  ____  ____  __ _     ___
+/ )( \(  __)(  __)(  / )   / __)
+\ /\ / ) _)  ) _)  )  (   (  _ \
+(_/\_)(____)(____)(__\_)   \___/
+
+
+This week, we discussed AES in CBC mode.
+You can find the slides on https://int80.net/cs595g/
+
+This week, you should solve commonly-breakable-code.
+
+When complete, add a solving script to /opt/solutions.
+
+If you have any questions, please contact me on slack or via email.
+
+################################################################################
