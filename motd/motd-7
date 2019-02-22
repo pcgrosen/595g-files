@@ -1,0 +1,21 @@
+################################################################################
+
+ __   __  ___   _______   _______  __   ___      _________
+|"  |/  \|  "| /"     "| /"     "||/"| /  ")    ("       "\
+|'  /    \:  |(: ______)(: ______)(: |/   /      \___/   :/
+|: /'        | \/    |   \/    |  |    __/          /   //
+ \//  /\'    | // ___)_  // ___)_ (// _  \        __\  ./
+ /   /  \\   |(:      "|(:      "||: | \  \      (:  \_/ \
+|___/    \___| \_______) \_______)(__|  \__)      \_______)
+
+
+This week, we discussed Flask/Jinja template injection.
+You can find the slides on https://int80.net/cs595g/
+
+This week, you should solve both jinja-saline and jinja-toxin.
+
+When complete, add a solving script to /opt/solutions.
+
+If you have any questions, please contact me on slack or via email.
+
+################################################################################
